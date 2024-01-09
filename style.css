@@ -1,0 +1,133 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+.przerwa{
+    margin-bottom: 100px;
+    height: 5px;
+}
+
+#navbar{
+    background-color: white;
+    height: 80px;
+    box-shadow: 8px 8px 24px 0px rgba(66, 68, 90, 0.2);
+    display: flex;
+    position:sticky;
+    top: 0px;
+    left: 0px;
+}
+#navbar .logo{
+    height: 100%;
+    border-radius: 20%;
+    justify-content: space-evenly;
+}
+#navbar ul{
+    width: 100%;
+    display: flex;
+    text-decoration:none;
+    list-style-type:none;
+    align-items: flex-end; 
+    justify-content: space-evenly;
+    margin: 0 20px 10px 25% ;
+    
+}
+#navbar ul a{
+    font-size: 18px;
+    text-decoration:none;
+    color: black;
+    font-family: "poppins", Arial, Helvetica, sans-serif;
+    
+}
+#home-sections{
+    background-image: url("https://cdn.pixabay.com/photo/2017/02/05/00/19/web-design-2038872_1280.jpg");
+    background-size: cover;
+    height: 600px;
+}
+#about-sections{
+    display: flex;
+    margin: 40px 0px 40px 0;
+    font-size: 1.5rem;
+}
+.about_text{
+    width: 100%;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about_text img{
+    width: 100%;
+}
+h1{
+    text-align: center;
+
+}
+
+.about_me{
+    display: flex;
+    margin: 40px 0px;
+}
+.about_me_text{
+    font-size: 1.5rem;
+    width: 100%;
+    margin:0 10px 0 10px;
+    text-align:start;
+    
+}
+.about_photo{
+    width: 100%;
+}
+.about_photo img{
+    width: 100%;
+}
+.skills-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    
+}
+#skills-sections{
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.skill-information{
+    padding: 10px;
+    text-align: center;
+}
+#projects-sections{
+    display: flex;
+    width: 100%;
+    overflow-x: auto;
+}
+#projects-sections img{
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+    border-radius: 2px;
+    transition: 0.5s;
+}
+#projects-sections img:hover{
+    scale: 1.2;
+}
+#contact-sections{
+    text-decoration: none;
+}
+
+#contact-sections a{
+    text-decoration: none;
+    color: white;
+    transition: 0.5s;
+}
+#contact-sections a:hover{
+    color: red;
+}
+#contact-sections p{
+    text-align: center;
+}
